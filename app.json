@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "conta-pra-nos",
+    "slug": "conta-pra-nos",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logofinal.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDgrbxgRsVCN_uxKzC0YpUNaTYYHAc55m0"
+        }
+      },
+      "package": "com.cabello.ontapranos"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "dacf7cde-8a90-4160-a8a5-464b0823db2d"
+      }
+    }
+  }
+}
